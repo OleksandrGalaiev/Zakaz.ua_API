@@ -8,7 +8,7 @@ For using:
 
 1) Clone project
 
-2) Create .env file inside project root derectory. Add env variables USER_PHONE, USER_PASSWORD (need test account)
+2) Create .env file inside project root derectory. Add env variables USER_EMAIL, USER_PHONE, USER_PASSWORD (need test account)
 
 3) Launch tests via npx playwright test --grep '@api'
 
