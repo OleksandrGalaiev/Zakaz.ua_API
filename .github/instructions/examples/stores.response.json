@@ -1,0 +1,876 @@
+[
+  {
+    "id": "482779001",
+    "name": "AlcoHub Surykova",
+    "retail_chain": "alcohub",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03035",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Surykova",
+      "building": "3",
+      "coords": {
+        "lat": 50.43416359312588,
+        "lng": 30.476823745365206
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "19:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": null,
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48246418",
+    "name": "Auchan Chernihivska DRIVE",
+    "retail_chain": "auchan",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "02094",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Hnata Khotkevycha",
+      "building": "1B",
+      "coords": {
+        "lat": 50.4546712,
+        "lng": 30.6383533
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "18:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48246418_parking_ru.png",
+          "en": "https://img4.zakaz.ua/stores/maps/48246418_parking_en.png",
+          "uk": "https://img4.zakaz.ua/stores/maps/48246418_parking_uk.png"
+        },
+        "name": "parking"
+      },
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48246418_store_ru.png",
+          "en": "https://img4.zakaz.ua/stores/maps/48246418_store_en.png",
+          "uk": "https://img4.zakaz.ua/stores/maps/48246418_store_uk.png"
+        },
+        "name": "store"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482918001",
+    "name": "Biotus Kyiv",
+    "retail_chain": "biotus",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "02000",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Stepana Bandery ave.",
+      "building": "15a",
+      "coords": {
+        "lat": 50.4930506,
+        "lng": 30.4888138
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "plan",
+      "nova_poshta_address",
+      "nova_poshta"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": null,
+    "is_active": true,
+    "overweight_params": {
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      },
+      "nova_poshta_address": null,
+      "nova_poshta": null
+    },
+    "pickup_zones": null,
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48225531",
+    "name": "Cosmos Kyiv DRIVE",
+    "retail_chain": "cosmos",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "61001",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Honore de Balzac",
+      "building": "2A",
+      "coords": {
+        "lat": 50.4977001,
+        "lng": 30.5766195
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "nova_poshta_address",
+      "plan",
+      "nova_poshta"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ],
+      "nova_poshta": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "18:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "nova_poshta_address": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      },
+      "nova_poshta": null
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48225531_store_ru.png",
+          "en": "https://img4.zakaz.ua/stores/maps/48225531_store_en.png",
+          "uk": "https://img4.zakaz.ua/stores/maps/48225531_store_uk.png"
+        },
+        "name": "store"
+      },
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48225531_parking_ru.png",
+          "en": "https://img4.zakaz.ua/stores/maps/48225531_parking_en.png",
+          "uk": "https://img4.zakaz.ua/stores/maps/48225531_parking_uk.png"
+        },
+        "name": "parking"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482800245",
+    "name": "EkoMarket Radunska",
+    "retail_chain": "ekomarket",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "02000",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Radunska",
+      "building": "40",
+      "coords": {
+        "lat": 50.5296024366428,
+        "lng": 30.60119948459225
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "pickup": [
+        "card_online"
+      ],
+      "plan": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "18:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      },
+      "nova_poshta": null,
+      "nova_poshta_address": null
+    },
+    "pickup_zones": null,
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482374007",
+    "name": "Еpicentr FOOD Poliarna DRIVE",
+    "retail_chain": "epicentr",
+    "region_id": null,
+    "city": null,
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "04021",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Poliarnа",
+      "building": "20D",
+      "coords": {
+        "lat": 50.5193,
+        "lng": 30.47774
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "card_online"
+      ],
+      "plan": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "20:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/482374007_store_ru.png",
+          "en": "https://img4.zakaz.ua/stores/maps/482374007_store_en.png",
+          "uk": "https://img4.zakaz.ua/stores/maps/482374007_store_uk.png"
+        },
+        "name": "store"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482917587",
+    "name": "Master Zoo Kyiv DRIVE",
+    "retail_chain": "masterzoo",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "02000",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "str. Severno-Syretska",
+      "building": "49",
+      "coords": {
+        "lat": 50.4855206,
+        "lng": 30.4340875
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "plan",
+      "pickup",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "pickup": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "18:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      },
+      "pickup": null,
+      "nova_poshta": null,
+      "nova_poshta_address": null
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://s3.amazonaws.com/zakaz.img/stores/maps/482917587_store_ru.png",
+          "en": "https://s3.amazonaws.com/zakaz.img/stores/maps/482917587_store_en.png",
+          "uk": "https://s3.amazonaws.com/zakaz.img/stores/maps/482917587_store_uk.png"
+        },
+        "name": "store"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48267601",
+    "name": "MEGAMARKET Surykova DRIVE",
+    "retail_chain": "megamarket",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03035",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Denys Monastyrskyi",
+      "building": "3",
+      "coords": {
+        "lat": 50.43416359312588,
+        "lng": 30.476823745365206
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "19:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/surikova_mega_drive.jpg",
+          "en": "https://img4.zakaz.ua/stores/maps/surikova_mega_drive.jpg",
+          "uk": "https://img4.zakaz.ua/stores/maps/surikova_mega_drive.jpg"
+        },
+        "name": "parking"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48215610",
+    "name": "METRO Poznyaki DRIVE",
+    "retail_chain": "metro",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03058",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kiev",
+      "street": "Grigorenko",
+      "building": "43",
+      "coords": {
+        "lat": 50.39051,
+        "lng": 30.64142
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "card_online"
+      ],
+      "plan": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "20:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48215610_store_ru.jpg",
+          "en": "https://img4.zakaz.ua/stores/maps/48215610_store_en.jpg",
+          "uk": "https://img4.zakaz.ua/stores/maps/48215610_store_uk.jpg"
+        },
+        "name": "store"
+      },
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/48215610_parking_ru.jpg",
+          "en": "https://img4.zakaz.ua/stores/maps/48215610_parking_en.jpg",
+          "uk": "https://img4.zakaz.ua/stores/maps/48215610_parking_uk.jpg"
+        },
+        "name": "parking"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48201070",
+    "name": "NOVUS Osokor DRIVE",
+    "retail_chain": "novus",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03115",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Zdolbunivska",
+      "building": "7Г",
+      "coords": {
+        "lat": 50.4112,
+        "lng": 30.6056
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "20:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/48201070_store_ru.png",
+          "en": "https://img4.zakaz.ua/48201070_store_en.png",
+          "uk": "https://img4.zakaz.ua/48201070_store_uk.png"
+        },
+        "name": "store"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "48277601",
+    "name": "Ultramarket Surykova DRIVE",
+    "retail_chain": "ultramarket",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03035",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Denys Monastyrskyi",
+      "building": "3",
+      "coords": {
+        "lat": 50.43416359312588,
+        "lng": 30.476823745365206
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "19:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/stores/maps/surikova_ultra_drive_ru.jpg",
+          "en": "https://img4.zakaz.ua/stores/maps/surikova_ultra_drive_en.jpg",
+          "uk": "https://img4.zakaz.ua/stores/maps/surikova_ultra_drive_uk.jpg"
+        },
+        "name": "parking"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482550001",
+    "name": "WineTime Bazhana DRIVE",
+    "retail_chain": "winetime",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03058",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Bazhana",
+      "building": "1e",
+      "coords": {
+        "lat": 50.3963315,
+        "lng": 30.6149269
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "plan",
+      "pickup",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "pickup": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "18:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      },
+      "pickup": null,
+      "nova_poshta": null,
+      "nova_poshta_address": null
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/482550001_pick_up_ru.png",
+          "en": "https://img4.zakaz.ua/482550001_pick_up_en.png",
+          "uk": "https://img4.zakaz.ua/482550001_pick_up_uk.png"
+        },
+        "name": "store"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  },
+  {
+    "id": "482778001",
+    "name": "Za Raz Surykova DRIVE",
+    "retail_chain": "zaraz",
+    "region_id": "kiev",
+    "city": "kiev",
+    "delivery_service": "zakaz",
+    "currency": "uah",
+    "post_code": "03035",
+    "phones": [
+      "0800 20 20 20"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "street": "Denys Monastyrskyi",
+      "building": "3",
+      "coords": {
+        "lat": 50.43416359312588,
+        "lng": 30.476823745365206
+      }
+    },
+    "email": "help@zakaz.ua",
+    "delivery_types": [
+      "pickup",
+      "plan"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ]
+    },
+    "payment_types_for_excisable": [
+      "card_online"
+    ],
+    "opening_hours": {
+      "from": "10:00",
+      "to": "19:00"
+    },
+    "is_active": true,
+    "overweight_params": {
+      "pickup": null,
+      "plan": {
+        "weight_step": 10000,
+        "max_step_price": 2500,
+        "initial_weight": 41000
+      }
+    },
+    "pickup_zones": [
+      {
+        "zone": {
+          "ru": "https://img4.zakaz.ua/482778001_store_ru.png",
+          "en": "https://img4.zakaz.ua/482778001_store_en.png",
+          "uk": "https://img4.zakaz.ua/482778001_store_uk.png"
+        },
+        "name": "parking"
+      }
+    ],
+    "service_fee_percentage": 0,
+    "tips_available": true
+  }
+]
