@@ -11,11 +11,13 @@ test.describe('Zakaz.ua Api tests', () => {
             .url(config.zakazURL)
             .path('/user/delivery')
             .GET_Request(200)
-        expect(responseData.delivery.address.plan.type).toEqual('apartment')
-        expect(responseData.delivery.address.plan.region_id).toEqual('kiev')
-        expect(responseData.delivery.address.plan.delivery_service_id).toEqual('zakaz')
-        let zodJSONSchema = userDeliveryJSONSchema.safeParse(responseData)
-        expect(zodJSONSchema.success, zodJSONSchema.success ? '' : z.prettifyError(zodJSONSchema.error)).toBeTruthy()
+        await test.step('Check critical response parameters and verify zod schema', async()=>{
+             expect(responseData.delivery.address.plan.type).toEqual('apartment')
+            expect(responseData.delivery.address.plan.region_id).toEqual('kiev')
+            expect(responseData.delivery.address.plan.delivery_service_id).toEqual('zakaz')
+            let zodJSONSchema = userDeliveryJSONSchema.safeParse(responseData)
+            expect(zodJSONSchema.success, zodJSONSchema.success ? '' : z.prettifyError(zodJSONSchema.error)).toBeTruthy()
+        })
     })
 
     test(`API. Check user profile response`, {tag:'@api'}, async({api, config})=>{
@@ -32,7 +34,7 @@ test.describe('Zakaz.ua Api tests', () => {
         expect(zodJSONSchema.success, zodJSONSchema.success ? '':z.prettifyError(zodJSONSchema.error)).toBeTruthy()
     })
 
-    test(`API. Check Stores api response`, {'tag':'@debug'}, async({api, config})=>{
+    test(`API. Check Stores api response`, {'tag':'@api'}, async({api, config})=>{
         const retailChainList = [
             'alcohub','auchan','biotus',
             'cosmos','ekomarket','epicentr',

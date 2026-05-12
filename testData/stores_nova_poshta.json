@@ -1,0 +1,112 @@
+{
+  "Biotus Kyiv": {
+    "delivery_types": [
+      "plan",
+      "nova_poshta_address",
+      "nova_poshta"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ]
+    }
+  },
+  "Cosmos Kyiv DRIVE": {
+    "delivery_types": [
+      "pickup",
+      "nova_poshta_address",
+      "plan",
+      "nova_poshta"
+    ],
+    "payment_types": {
+      "pickup": [
+        "bank",
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "bank",
+        "card_online"
+      ],
+      "plan": [
+        "bank",
+        "card_online"
+      ],
+      "nova_poshta": [
+        "bank",
+        "card_online"
+      ]
+    }
+  },
+  "EkoMarket Radunska": {
+    "delivery_types": [
+      "pickup",
+      "plan",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "pickup": [
+        "card_online"
+      ],
+      "plan": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    }
+  },
+  "Master Zoo Kyiv DRIVE": {
+    "delivery_types": [
+      "plan",
+      "pickup",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "pickup": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    }
+  },
+  "WineTime Bazhana DRIVE": {
+    "delivery_types": [
+      "plan",
+      "pickup",
+      "nova_poshta",
+      "nova_poshta_address"
+    ],
+    "payment_types": {
+      "plan": [
+        "card_online"
+      ],
+      "pickup": [
+        "card_online"
+      ],
+      "nova_poshta": [
+        "card_online"
+      ],
+      "nova_poshta_address": [
+        "card_online"
+      ]
+    }
+  }
+}

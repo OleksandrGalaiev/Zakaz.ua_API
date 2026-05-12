@@ -1,0 +1,54 @@
+{
+  "AlcoHub Surykova": {
+    "id": "482779001",
+    "retail_chain": "alcohub"
+  },
+  "Auchan Chernihivska DRIVE": {
+    "id": "48246418",
+    "retail_chain": "auchan"
+  },
+  "Biotus Kyiv": {
+    "id": "482918001",
+    "retail_chain": "biotus"
+  },
+  "Cosmos Kyiv DRIVE": {
+    "id": "48225531",
+    "retail_chain": "cosmos"
+  },
+  "EkoMarket Radunska": {
+    "id": "482800245",
+    "retail_chain": "ekomarket"
+  },
+  "Еpicentr FOOD Poliarna DRIVE": {
+    "id": "482374007",
+    "retail_chain": "epicentr"
+  },
+  "Master Zoo Kyiv DRIVE": {
+    "id": "482917587",
+    "retail_chain": "masterzoo"
+  },
+  "MEGAMARKET Surykova DRIVE": {
+    "id": "48267601",
+    "retail_chain": "megamarket"
+  },
+  "METRO Poznyaki DRIVE": {
+    "id": "48215610",
+    "retail_chain": "metro"
+  },
+  "NOVUS Osokor DRIVE": {
+    "id": "48201070",
+    "retail_chain": "novus"
+  },
+  "Ultramarket Surykova DRIVE": {
+    "id": "48277601",
+    "retail_chain": "ultramarket"
+  },
+  "WineTime Bazhana DRIVE": {
+    "id": "482550001",
+    "retail_chain": "winetime"
+  },
+  "Za Raz Surykova DRIVE": {
+    "id": "482778001",
+    "retail_chain": "zaraz"
+  }
+}
