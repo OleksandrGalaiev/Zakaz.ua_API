@@ -58,18 +58,5 @@ test.describe('Zakaz.ua Api tests', () => {
 
 })
 
-test.describe('serial mode', ()=>{
 
-    test.describe.configure({'mode':'serial'})
-
-    test('one',{tag:'@serial'}, async()=>{
-        console.log('test n1')
-    })
-    test('two',{tag:'@serial'}, async()=>{
-        console.log('test n2')
-    })
-    test('3',{tag:'@serial'}, async()=>{
-        console.log('test n3')
-    })
-})
 
